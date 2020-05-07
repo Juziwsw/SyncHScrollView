@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchMatch.Vertical">
+
+
+    <RelativeLayout style="@style/MatchMatch">
+
+
+        <LinearLayout style="@style/MatchMatch.Vertical">
+
+            <RelativeLayout
+                style="@style/MatchWrap"
+                android:background="@color/color_E8E8E8"
+                android:descendantFocusability="blocksDescendants"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/dimen_10dp"
+                android:paddingRight="@dimen/dimen_10dp">
+
+                <LinearLayout
+                    android:id="@+id/lin_product"
+                    style="@style/MatchWrap.Vertical.item_horinzontall_Lin_ProductName_stype">
+
+                    <TextView
+                        android:id="@+id/textView_productName"
+                        style="@style/WrapWrap.head_horinzontall_TextView_ProductName_stype"
+                        android:text="名称" />
+                </LinearLayout>
+
+
+                <com.mingying.synchscrollview.InterceptScrollContainer
+                    android:id="@+id/scroollContainter"
+                    style="@style/MatchWrap"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_toEndOf="@id/lin_product"
+                    android:layout_toRightOf="@id/lin_product">
+
+                    <com.mingying.synchscrollview.SyncHScrollView
+                        android:id="@+id/horizontalScrollView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:scrollbars="none">
+
+                        <LinearLayout
+                            android:id="@+id/lin_title_content"
+                            style="@style/MatchWrap.Horizontal"
+                            android:gravity="center_vertical"/>
+
+                    </com.mingying.synchscrollview.SyncHScrollView>
+                </com.mingying.synchscrollview.InterceptScrollContainer>
+
+            </RelativeLayout>
+
+            <com.mingying.synchscrollview.GestureListView
+                android:id="@+id/listView"
+                style="@style/MatchMatch">
+
+            </com.mingying.synchscrollview.GestureListView>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>

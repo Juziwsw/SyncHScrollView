@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+
+    <!-- 通用线条颜色-->
+    <color name="global_toolbar_color">#F5F4F5</color>
+    <color name="global_line_color">#F5F4F5</color>
+    <color name="global_color">#F5F4F5</color>
+    <color name="tab_unselect">#777777</color>
+    <color name="global_white_color">#ffffff</color>
+    <!---->
+    <color name="color_080808">#080808</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_FA7373">#FA7373</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_cccccc">#cccccc</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_9b9b9b">#9b9b9b</color>
+    <color name="color_f5f4f5">#f5f4f5</color>
+    <color name="color_777777">#777777</color>
+    <color name="color_F8F9FB">#F8F9FB</color>
+    <color name="color_F8F8F8">#F8F8F8</color>
+    <color name="color_BBBBBB">#BBBBBB</color>
+    <color name="color_E93F3B">#E93F3B</color>
+    <color name="color_EFEFF4">#EFEFF4</color>
+    <color name="color_F0F1F6">#F0F1F6</color>
+    <color name="color_E6E6E6">#E6E6E6</color>
+    <color name="color_E8E8E8">#E8E8E8</color>
+    <color name="color_5AD13D">#5AD13D</color>
+    <color name="color_F1F2F3">#F1F2F3</color>
+    <color name="color_F5F8FF">#F5F8FF</color>
+    <color name="color_EDF1FD">#EDF1FD</color>
+    <color name="color_FFEBC7">#FFEBC7</color>
+    <color name="color_F2B13B">#F2B13B</color>
+    <color name="color_111111">#111111</color>
+    <color name="color_6F6F7D">#6F6F7D</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="color_B3B4DD">#B3B4DD</color>
+    <color name="color_9EC2E3">#9EC2E3</color>
+    <color name="color_D5A49D">#D5A49D</color>
+    <color name="color_9AC7B3">#9AC7B3</color>
+    <color name="color_5A5A5A">#5A5A5A</color>
+    <color name="color_F2F2F2">#F2F2F2</color>
+    <color name="color_F26868">#F26868</color>
+    <color name="color_FF4040">#FF4040</color>
+</resources>

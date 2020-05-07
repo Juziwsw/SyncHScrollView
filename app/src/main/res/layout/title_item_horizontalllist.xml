@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/WrapWrap">
+
+    <LinearLayout style="@style/foundation_classification_lin_stype">
+
+        <TextView
+            android:id="@+id/txt_content"
+            style="@style/WrapWrap.head_horinzontall_title_TextView_stype"
+            android:text="12.34" />
+    </LinearLayout>
+</LinearLayout>
+

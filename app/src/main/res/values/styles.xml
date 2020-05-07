@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!--侧滑界面,正式数据左侧的LinearLayout-Stype-->
+    <style name="MatchWrap.Vertical.item_horinzontall_Lin_ProductName_stype">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <!--侧滑界面,顶部head右边stype-->
+    <style name="WrapWrap.head_horinzontall_title_TextView_stype">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color_333333</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <!--侧滑界面,正式数据每个TextView的样式-->
+    <style name="item_horinzontall_TextView_stype">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textColor">@color/color_333333</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <!--用在基金界面,里层TextView分类上面-->
+    <style name="foundation_classification_textview_stype">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color_777777</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!--用在基金界面,外层LinearLayout分类上面-->
+    <style name="foundation_classification_lin_stype">
+        <item name="android:layout_width">@dimen/dimen_120dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/dimen_10dp</item>
+        <item name="android:paddingBottom">@dimen/dimen_10dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!--侧滑界面,顶部head名称stype-->
+    <style name="WrapWrap.head_horinzontall_TextView_ProductName_stype">
+        <item name="android:textColor">@color/color_777777</item>
+        <item name="android:textSize">@dimen/dimen_14sp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+</resources>

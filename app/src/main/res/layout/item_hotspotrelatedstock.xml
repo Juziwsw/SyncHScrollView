@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MatchWrap"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/dimen_10dp"
+    android:paddingTop="@dimen/dimen_6dp"
+    android:paddingRight="@dimen/dimen_10dp"
+    android:paddingBottom="@dimen/dimen_6dp">
+
+    <LinearLayout
+        android:id="@+id/lin_product"
+        style="@style/MatchWrap.Vertical.item_horinzontall_Lin_ProductName_stype">
+
+        <TextView
+            android:id="@+id/textView_productName"
+            android:text="中国高铁"
+            style="@style/item_horinzontall_TextView_stype" />
+
+        <TextView
+            android:id="@+id/txt_productCode"
+            style="@style/item_horinzontall_TextView_stype"
+            android:text="123455"
+            android:layout_marginTop="@dimen/dimen_5dp" />
+    </LinearLayout>
+
+    <com.mingying.synchscrollview.InterceptScrollContainer
+        android:id="@+id/scroollContainter"
+        style="@style/MatchWrap"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@id/lin_product"
+        android:layout_toRightOf="@id/lin_product"
+        android:focusable="false">
+
+        <com.mingying.synchscrollview.SyncHScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/lin_content_tag"
+                style="@style/MatchWrap.Horizontal"
+                android:gravity="center_vertical" />
+        </com.mingying.synchscrollview.SyncHScrollView>
+    </com.mingying.synchscrollview.InterceptScrollContainer>
+
+</RelativeLayout>

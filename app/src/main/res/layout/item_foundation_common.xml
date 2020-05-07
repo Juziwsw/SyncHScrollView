@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/dimen_10dp"
+    android:paddingTop="@dimen/dimen_6dp"
+    android:paddingRight="@dimen/dimen_10dp"
+    android:paddingBottom="@dimen/dimen_6dp">
+
+    <LinearLayout
+        android:id="@+id/lin_product"
+        style="@style/MatchWrap.Vertical.item_horinzontall_Lin_ProductName_stype"
+        android:layout_width="150dp">
+
+        <TextView
+            android:id="@+id/textView_productName"
+            style="@style/item_horinzontall_TextView_stype" />
+
+        <TextView
+            android:id="@+id/txt_productCode"
+            style="@style/item_horinzontall_TextView_stype"
+            android:layout_marginTop="@dimen/dimen_5dp" />
+    </LinearLayout>
+
+
+    <com.mingying.synchscrollview.InterceptScrollContainer
+        android:id="@+id/scroollContainter"
+        style="@style/MatchWrap"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@id/lin_product"
+        android:layout_toRightOf="@id/lin_product"
+        android:focusable="false">
+
+        <com.mingying.synchscrollview.SyncHScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:scrollbars="none">
+
+            <LinearLayout style="@style/MatchWrap.Vertical">
+
+                <LinearLayout
+                    style="@style/MatchWrap.Horizontal"
+                    android:layout_height="@dimen/dimen_70dp"
+                    android:gravity="center_vertical">
+
+                    <LinearLayout style="@style/foundation_classification_lin_stype">
+
+                        <TextView
+                            android:id="@+id/txt_net_worth"
+                            style="@style/foundation_classification_textview_stype"
+                            android:textColor="@color/color_333333"
+                            tools:text="28.87" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/foundation_classification_lin_stype">
+
+                        <TextView
+                            android:id="@+id/txt_daily_gain"
+                            style="@style/foundation_classification_textview_stype"
+                            android:textColor="@color/color_E93F3B"
+                            tools:text="1/2097" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/foundation_classification_lin_stype">
+
+                        <TextView
+                            android:id="@+id/txt_nearly_one_month"
+                            style="@style/foundation_classification_textview_stype"
+                            android:textColor="@color/color_E93F3B"
+                            tools:text="34%" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/foundation_classification_lin_stype">
+
+                        <TextView
+                            android:id="@+id/txt_nearly_three_month"
+                            style="@style/foundation_classification_textview_stype"
+                            android:textColor="@color/color_E93F3B"
+                            tools:text="9.23亿" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/foundation_classification_lin_stype">
+
+                        <TextView
+                            android:id="@+id/txt_nearly_six_month"
+                            style="@style/foundation_classification_textview_stype"
+                            android:textColor="@color/color_E93F3B"
+                            tools:text="1.30亿" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/foundation_classification_lin_stype">
+
+                        <TextView
+                            android:id="@+id/txt_nearly_one_year"
+                            style="@style/foundation_classification_textview_stype"
+                            android:textColor="@color/color_E93F3B"
+                            tools:text="1.30亿" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/foundation_classification_lin_stype">
+
+                        <TextView
+                            android:id="@+id/txt_nearly_three_year"
+                            style="@style/foundation_classification_textview_stype"
+                            android:textColor="@color/color_E93F3B"
+                            tools:text="1.30亿" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/foundation_classification_lin_stype">
+
+                        <TextView
+                            android:id="@+id/txt_Since_founded"
+                            style="@style/foundation_classification_textview_stype"
+                            android:textColor="@color/color_E93F3B"
+                            tools:text="1.30亿" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </com.mingying.synchscrollview.SyncHScrollView>
+    </com.mingying.synchscrollview.InterceptScrollContainer>
+
+</RelativeLayout>
